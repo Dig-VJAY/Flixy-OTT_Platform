@@ -1,0 +1,3 @@
+sass:
+  # sass_dir: assets/css  # Comment out or remove this line
+  style: :compressed
