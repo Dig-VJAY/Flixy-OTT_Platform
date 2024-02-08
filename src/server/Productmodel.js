@@ -1,7 +1,8 @@
-const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
-const password = process.env.DB_PASSWORD;
+//const path = require('path');
+//require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+//const password = process.env.DB_PASSWORD;
 // Comment all the above code and Use your own db password and use it in the connection String
+const Password ="AY9IozL7tcIpI7oh"
 const mongoose = require("mongoose");
  main();
 

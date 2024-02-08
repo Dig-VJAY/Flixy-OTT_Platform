@@ -5,10 +5,6 @@ import Searchbar from './Searchbar'
 
 export default function Maintop() {
    
-
-   
-
-
   return (
     <div className='top '>
      
