@@ -32,3 +32,14 @@ github:
 permalink: /:title/
 
 # Any other custom configurations specific to your project
+
+# Set the source directory for Jekyll (where your Jekyll site's source files are located)
+source: src
+
+# Set the destination directory for Jekyll (where Jekyll will output the built site)
+destination: public
+
+# Exclude files or directories that should not be processed by Jekyll
+exclude:
+  - node_modules
+
