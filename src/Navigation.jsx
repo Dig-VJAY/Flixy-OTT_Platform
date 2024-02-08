@@ -2,7 +2,7 @@ import React from 'react';
 import '../src/Style.css/Navigation.css';
 import { NavLink } from 'react-router-dom';
 import logo from './images/logo-removebg-preview.png'
-//here i imported Navlink from the 'react-router-dom' for performing routing
+
 
 function Navigation() {
   return (

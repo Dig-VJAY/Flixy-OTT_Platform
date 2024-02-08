@@ -18,11 +18,6 @@ const Button = ({ title, Image, video, id }) => {
         video: `${video}`,
       });
     } else {
-      // Remove the item from existingData based on some condition
-      // For example, remove by id
-     // const updatedData = existingData.filter(item =>  item.title !== title);
-     // existingData.length = 0; // Clear the array
-     //existingData.push(...updatedData); // Add updated data back to the array
 
      const updatedData = existingData.filter(item =>  item.title === title);
      existingData.pop(updatedData);
@@ -46,7 +41,7 @@ const Button = ({ title, Image, video, id }) => {
     <div>
       <button onClick={Watchlater} className="watchlaterbutton">
         {watchlaterfunctionality ? "watch later" : "remove"} 
-        {/* {StoredResult ? "Watch later" : "Remove "} */}
+      
       </button>
     </div>
   );
