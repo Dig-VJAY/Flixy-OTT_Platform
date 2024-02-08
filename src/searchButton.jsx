@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './Style.css/SearchButton.css'
+import '..src/assets/style.css/SearchButton.css'
 export let video;
 const SearchButton = (props) => {
 

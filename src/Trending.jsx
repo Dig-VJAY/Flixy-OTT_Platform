@@ -1,6 +1,6 @@
 
 import React from "react";
-import "../src/Style.css/Trending.css";
+import "../src/assets/style.css/Trending.css";
 import Moviebox from "./Moviebox";
 import Button from "./Button";
 import Playbutton from "./Playbutton";
