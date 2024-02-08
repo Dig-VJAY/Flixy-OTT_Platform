@@ -1,6 +1,6 @@
 import React from 'react'
 
-import  '../src/assets/style.css/Videoplayer.css'
+import  '../src/style.css/Videoplayer.css'
   import   { videop }  from './Playbutton'
 import { video } from './searchButton'
 const Videoplayer = () => {

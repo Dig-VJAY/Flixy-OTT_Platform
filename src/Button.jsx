@@ -1,6 +1,6 @@
 import React from "react";
 import { useState ,useEffect} from "react";
-import './assets/style.css/Button.css'
+import './style.css/Button.css'
 
 const Button = ({ title, Image, video, id }) => {
   const [watchlaterfunctionality, SetWatchlaterfunctionality] = useState(true);

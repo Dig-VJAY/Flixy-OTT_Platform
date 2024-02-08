@@ -1,3 +1,34 @@
-# sass:
-#   sass_dir: ../src/Style.css
-#   style: :compressed
+# _config.yml
+
+# Site settings
+title: Your Jekyll Site
+description: A brief description of your site
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal  # Change this to the desired theme or remove for no theme
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - .github
+  - _site
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Metadata for GitHub Pages
+github:
+  show_downloads: false
+
+# Permalinks
+permalink: /:title/
+
+# Any other custom configurations specific to your project
