@@ -31,6 +31,6 @@ yarn-error.log*
 manifest.json
 
 robots.txt
-
-
 .env
+
+README.md
