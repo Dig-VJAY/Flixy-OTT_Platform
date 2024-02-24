@@ -13,6 +13,7 @@
 }
 
 .list{
+    text-decoration: none;
     list-style: none;
     display: flex;
     align-items: center;
@@ -24,20 +25,23 @@
     text-decoration: none;
 }
 .playbutton{
+
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 50px;
-    color: white;
+    // color: white;
     background-color: red;
     font-weight: bold;
     border: 1px;
     height: 25px;
     border-radius: 6px;
-}
 
-.playbutton:hover{
+
+&:hover{
+    color: white;
     background-color: black;
-    border:1px solid white;
+     border:1px solid white;
     cursor: pointer;
+}
 }
 

@@ -8,10 +8,11 @@
     border: 1px;
     height: 25px;
     border-radius: 6px;
-}
 
-.watchlaterbutton:hover{
+
+&:hover{
     background-color: black;
     border:1px solid white;
     cursor: pointer;
+}
 }
